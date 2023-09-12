@@ -1,0 +1,230 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    padding: 5px;
+    justify-content: right;
+    background-color: slategrey;
+    border: solid black;
+
+    .contact {
+        text-decoration: none;
+        padding-right: 30px;
+        color: white;
+    }
+
+    .contact:hover {
+        color: rgb(200, 200, 200);
+    }
+}
+
+footer {
+    background-color: slategrey; 
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    border: solid black;
+
+    .footer{
+        text-decoration: none;
+        color: white;
+    }
+
+    .footer:hover {
+        color: rgb(200, 200, 200);
+    }
+}
+
+.main-title {
+    background-color:rgb(0, 27, 57);
+    border: solid black;
+    margin: 0 auto;
+    padding: 75px 0 50px 0;
+    text-align: center;
+    position:relative;
+}
+
+.main-intro {
+    padding: 30px;
+    justify-content: center;
+    background-color: slategrey;
+    border: solid black;
+    padding: 20px 0 20px 0;
+}
+
+.main-info {
+    background-color:rgb(0, 27, 57);
+    border: solid black;
+    padding: 50px 50px 50px 50px;
+
+    .experienceLinks {
+        color: rgb(0, 29, 143);
+        text-decoration: none;
+    }
+
+    .experienceLinks:hover {
+        color: rgb(200, 200, 200);
+    }
+}
+
+hr {
+    border: double rgb(48, 49, 60) 8px;
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-family: 'Palatino', serif;
+    font-size: 70px;
+    color: aliceblue;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Palatino', serif;
+    font-size: 40px;
+    color: aliceblue;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Palatino', serif;
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Palatino', serif;
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+}
+
+p {
+    font-family: 'Palatino', serif;
+    font-size: 20px;
+}
+
+.images {
+    font-size: 0;
+}
+
+.images img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Headshot {
+    border: 2px black;
+    border-style: solid;
+    width: 500px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.387);
+    transition: 0.3s;
+    border-radius: 10px;
+    background-color: slategray;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    min-height: 200px;
+    max-height: 300px;
+}
+
+.three-col {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    display: grid;
+    gap: 10px;
+}
+
+.one-col {
+    width: 80%;
+    grid-template-columns: 1fr;
+    padding: 80px 0px 20px 190px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+    font-family: 'Palatino', serif;
+    color: aliceblue;
+}
+
+li {
+    list-style: none;
+    display: grid;
+    font-family: 'Palatino', serif;
+    color: aliceblue;
+}
+
+dl {
+    list-style: none;
+    display: grid;
+    justify-content: center;
+    font-family: 'Palatino', serif;
+    color: aliceblue;
+}
+
+dt {
+    padding-left: 40px;
+    padding-bottom: 20px;
+    font-family: 'Palatino', serif;
+    color: aliceblue;
+    text-align: left;
+}
+
+dd {
+    padding-right: 40px;
+    padding-bottom: 20px;
+    font-family: 'Palatino', serif;
+    text-align: left;
+}
+
+.personal-info {
+    margin: auto;
+    font-family: 'Palatino', serif;
+    color: aliceblue;
+}
+
+.contact-me {
+    background-color:rgb(0, 27, 57);
+} 
+
+input {
+    margin: 10px;
+    height: 30px;
+    width: 300px;
+}
+
+textarea {
+    width: 300px;
+    height: 60px;
+    vertical-align: left;
+}
+
+label {
+    padding: 0px 50px 50px 0px;
+    vertical-align: top;
+    font-family: 'Palatino', serif;
+    color: aliceblue;
+}
+
+input[type=submit] {
+    width: 100px;
+    position: relative;
+    right: 100px;
+}
+
+form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
